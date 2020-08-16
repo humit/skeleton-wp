@@ -1,4 +1,4 @@
-FROM 206662246910.dkr.ecr.eu-central-1.amazonaws.com/base-wp:latest
+FROM CHANGEME.dkr.ecr.eu-central-1.amazonaws.com/base-wp:latest
 
 RUN rm -rf /var/www/html; \
     mkdir -p /var/www/html
